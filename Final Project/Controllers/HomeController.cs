@@ -10,6 +10,7 @@ namespace Final_Project.Controllers
     {
         public ActionResult Index()
         {
+            int foo = 0;
             return View();
         }
 
