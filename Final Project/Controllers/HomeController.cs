@@ -8,6 +8,9 @@ namespace Final_Project.Controllers
 {
     public class HomeController : Controller
     {
+
+        int test = 0;
+
         public ActionResult Index()
         {
             int foo = 0;
