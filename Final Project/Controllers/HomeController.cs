@@ -14,9 +14,6 @@ namespace Final_Project.Controllers
 {
     public class HomeController : Controller
     {
-
-        int test = null;
-
         string size = "?height=300&width=300";
         string urlHeader = "http://api.harvardartmuseums.org";
         string param = "/object?person=33430";
