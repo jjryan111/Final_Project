@@ -84,13 +84,13 @@ namespace Final_Project.Controllers
                 return View(r);
             }
         }
-        //public ActionResult About(MedReg r)
-        //{
+        public ActionResult About(MedReg r)
+        {
 
-        //    ViewBag.Welcome = r.firstName + " You submitted " + r.medium + "?";
-        //    return View();
+            ViewBag.Welcome = r.firstName + " You submitted " + r.medium + "?";
+            return View();
 
-        //}
+        }
         public ActionResult Medium()
         {
 
