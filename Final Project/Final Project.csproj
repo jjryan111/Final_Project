@@ -189,7 +189,13 @@
     <Content Include="Views\Home\Data.cshtml" />
     <Content Include="Views\Home\Medium.cshtml" />
     <Content Include="Views\Home\Photo.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Home\Image.cshtml" />
+||||||| merged common ancestors
+=======
+    <Content Include="Views\Image.cshtml" />
+    <Content Include="Views\Home\Image.cshtml" />
+>>>>>>> 976e1b2ba0176d9ffa1eb50e04d3878ff1225f4b
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
