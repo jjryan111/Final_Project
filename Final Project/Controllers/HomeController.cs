@@ -35,7 +35,7 @@ namespace Final_Project.Controllers
         {
             return View();
         }
-        public void Button1_Click(string medium)
+        public void update_action(string medium)
         {
             if (medium == "Photography")
             {

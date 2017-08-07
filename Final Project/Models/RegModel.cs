@@ -15,6 +15,19 @@ namespace Final_Project.Models
         [Key]
         public string firstName { get; set; }
 
+        //public void Button1_Click(string medium)
+        //{
+        //    if (medium == "Photography")
+        //    {
+        //        Response.Redirect("/Home/Photo.cshtml");
+        //        //                Server.Transfer("/Home/Photo.cshtml");
+        //    }
+        //    else
+        //    {
+        //        Server.Transfer("/Home/Index.cshtml");
+        //    }
+        //}
+
     }
     public class RegModel
     {
