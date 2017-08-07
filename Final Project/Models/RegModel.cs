@@ -7,7 +7,7 @@ using System.ComponentModel;
 namespace Final_Project.Models
 {
 
-    public class Registration
+    public class MedReg
     {
         [Required]
         [Key]
