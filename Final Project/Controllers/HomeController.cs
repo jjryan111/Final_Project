@@ -57,14 +57,52 @@ namespace Final_Project.Controllers
         {
             return View();
         }
-
-        public ActionResult About()
+        public void Button1_Click(string medium)
         {
-            ViewBag.Message = "Your application description page.";
+            if (medium == "Photography")
+            {
+                Response.Redirect("/Home/Photo.cshtml");
+//                Server.Transfer("/Home/Photo.cshtml");
+            }
+            else
+            {
+                Server.Transfer("/Home/Index.cshtml");
+            }            
+        }
+        public ActionResult InitResp (string r)
+        {
+            string p = "Photo";
+            string i = "Index";
+            if (r  == "Photography")
+               
+            {
+                return View(p);
+            }
+
+            else
+            {
+                return View(r);
+            }
+        }
+        //public ActionResult About(MedReg r)
+        //{
+
+        //    ViewBag.Welcome = r.firstName + " You submitted " + r.medium + "?";
+        //    return View();
+
+        //}
+        public ActionResult Medium()
+        {
 
             return View();
-        }
 
+        }
+        public ActionResult Photo()
+        {
+
+            return View();
+
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
