@@ -188,6 +188,8 @@
     <Content Include="Views\Home\Data.cshtml" />
     <Content Include="Views\Home\Medium.cshtml" />
     <Content Include="Views\Home\Photo.cshtml" />
+    <Content Include="Views\Image.cshtml" />
+    <Content Include="Views\Home\Image.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
